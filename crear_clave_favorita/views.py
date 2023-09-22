@@ -8,6 +8,7 @@ import json
 
 # Create your views here.
 
+# Crear y obtener clave favorita
 class ClaveFavoritaApiView(APIView):
 
     def get(self, request, *args, **kwargs):
